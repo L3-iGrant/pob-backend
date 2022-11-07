@@ -26,7 +26,7 @@ class IGrantUserAdmin(BaseUserAdmin):
         "is_staff",
         "is_active",
         "user_type",
-        "org",
+        "organisation",
         "org_verification_status",
     )
     list_filter = (
@@ -34,7 +34,7 @@ class IGrantUserAdmin(BaseUserAdmin):
         "is_staff",
         "is_active",
         "user_type",
-        "org",
+        "organisation",
         "org_verification_status",
     )
     fieldsets = (
@@ -46,7 +46,7 @@ class IGrantUserAdmin(BaseUserAdmin):
                     "is_staff",
                     "is_active",
                     "user_type",
-                    "org",
+                    "organisation",
                     "org_verification_status",
                 )
             },
@@ -64,7 +64,7 @@ class IGrantUserAdmin(BaseUserAdmin):
                     "is_staff",
                     "is_active",
                     "user_type",
-                    "org",
+                    "organisation",
                     "org_verification_status",
                 ),
             },

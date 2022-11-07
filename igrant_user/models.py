@@ -30,7 +30,7 @@ class IGrantUser(AbstractBaseUser, PermissionsMixin):
     user_type = models.CharField(
         max_length=8, choices=UserType.choices, default=UserType.COMPANY
     )
-    org = models.CharField(max_length=250, choices=Orgs.choices, default=Orgs.DEFAULT)
+    organisation = models.CharField(max_length=250, choices=Orgs.choices, default=Orgs.DEFAULT)
     org_verification_status = models.CharField(
         max_length=250,
         choices=OrgsVerificationStatus.choices,
