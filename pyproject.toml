@@ -23,6 +23,7 @@ django-filter = "21.1"
 django-rest-auth = "0.9.5"
 django-constance = "2.9.1"
 django-picklefield = "3.0"
+django-environ = "0.9.0"
 
 [tool.poetry.dev-dependencies]
 
